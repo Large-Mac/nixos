@@ -1,6 +1,6 @@
 { config, pkgs, ... }: {
-  home.username = ${user};
-  home.homeDirectory = "/home/${user}";
+  home.username = "neo";
+  home.homeDirectory = "/home/neo";
   
   # Let Home Manager manage itself
   programs.home-manager.enable = true;
