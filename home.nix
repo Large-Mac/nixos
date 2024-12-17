@@ -13,7 +13,9 @@
     fd
     ripgrep
     fzf
-    (nerdfonts.override { fonts = [ "Hack" ]; })
+    nerd-fonts.hack
+    nerd-fonts.iosevka
+    iosevka-comfy.comfy
   ];
 
   programs.git = {
