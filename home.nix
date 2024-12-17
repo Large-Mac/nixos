@@ -12,6 +12,8 @@
     emacs
     fd
     ripgrep
+    fzf
+    (nerdfonts.override { fonts = [ "Hack" ]; })
   ];
 
   programs.git = {
